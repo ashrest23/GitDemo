@@ -26,4 +26,12 @@ public class AppTest
         assertTrue( true );
         System.out.println("GitStuff added new test to develop branch.");
     }
+    
+    @Test
+    public void addNewTestDemoX()
+    {
+        assertTrue( true );
+        System.out.println("GitDemoX added new test to develop branch.");
+    }
+    
 }
