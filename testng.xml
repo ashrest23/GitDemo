@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+	<!-- add parellel = "tests" to run in parellel mode-->
+	<!-- Declare listener files -->
+	<listeners>
+		<listener class-name="FrameworkProject.Listeners"></listener>
+	</listeners>
+	<test thread-count="5" name="Testing Home Page">
+		<classes>
+			<class name="FrameworkProject.HomePageTest" />
+		</classes>
+	</test>
+	<test thread-count="5" name="No Test">
+		<classes>
+			<class name="FrameworkProject.AppTest" />
+		</classes>
+	</test>
+	<test thread-count="5" name="Validating Title On Landing Page">
+		<classes>
+			<class name="FrameworkProject.ValidateTitleTest" />
+		</classes>
+	</test>
+	<test thread-count="5" name="Validating Navigation Links On Landing Page">
+		<classes>
+			<class name="FrameworkProject.ValidateNavLinks" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

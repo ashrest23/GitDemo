@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-25T19:42:18 EST" name="Suite" finished-at="2022-01-25T19:42:54 EST" duration-ms="36329">
+    <groups>
+    </groups>
+    <test started-at="2022-01-25T19:42:18 EST" name="Testing Home Page" finished-at="2022-01-25T19:42:41 EST" duration-ms="23324">
+      <class name="FrameworkProject.HomePageTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:FrameworkProject.HomePageTest@16746061]" started-at="2022-01-25T19:42:18 EST" name="initialize" finished-at="2022-01-25T19:42:19 EST" duration-ms="1525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:FrameworkProject.HomePageTest@16746061]" started-at="2022-01-25T19:42:19 EST" name="basePageNavigation" data-provider="getData" finished-at="2022-01-25T19:42:32 EST" duration-ms="12797" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricted@user.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nonrestricted-PW]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Non Restricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:FrameworkProject.HomePageTest@16746061]" started-at="2022-01-25T19:42:32 EST" name="basePageNavigation" data-provider="getData" finished-at="2022-01-25T19:42:41 EST" duration-ms="8874" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricted@user.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[restricted-PW]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:FrameworkProject.HomePageTest@16746061]" started-at="2022-01-25T19:42:41 EST" name="teardown" finished-at="2022-01-25T19:42:41 EST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- FrameworkProject.HomePageTest -->
+    </test> <!-- Testing Home Page -->
+    <test started-at="2022-01-25T19:42:41 EST" name="No Test" finished-at="2022-01-25T19:42:41 EST" duration-ms="0">
+      <class name="FrameworkProject.AppTest">
+        <test-method signature="shouldAnswerWithTrue()[pri:0, instance:FrameworkProject.AppTest@58359ebd]" started-at="2022-01-25T19:42:41 EST" name="shouldAnswerWithTrue" finished-at="2022-01-25T19:42:41 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAnswerWithTrue -->
+      </class> <!-- FrameworkProject.AppTest -->
+    </test> <!-- No Test -->
+    <test started-at="2022-01-25T19:42:41 EST" name="Validating Title On Landing Page" finished-at="2022-01-25T19:42:48 EST" duration-ms="6731">
+      <class name="FrameworkProject.ValidateTitleTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:FrameworkProject.ValidateTitleTest@41e350f1]" started-at="2022-01-25T19:42:41 EST" name="initialize" finished-at="2022-01-25T19:42:48 EST" duration-ms="6563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageText()[pri:0, instance:FrameworkProject.ValidateTitleTest@41e350f1]" started-at="2022-01-25T19:42:48 EST" name="basePageText" finished-at="2022-01-25T19:42:48 EST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageText -->
+        <test-method signature="baseHeaderText()[pri:0, instance:FrameworkProject.ValidateTitleTest@41e350f1]" started-at="2022-01-25T19:42:48 EST" name="baseHeaderText" finished-at="2022-01-25T19:42:48 EST" depends-on-methods="FrameworkProject.ValidateTitleTest.basePageText" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseHeaderText -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:FrameworkProject.ValidateTitleTest@41e350f1]" started-at="2022-01-25T19:42:48 EST" name="teardown" finished-at="2022-01-25T19:42:48 EST" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- FrameworkProject.ValidateTitleTest -->
+    </test> <!-- Validating Title On Landing Page -->
+    <test started-at="2022-01-25T19:42:48 EST" name="Validating Navigation Links On Landing Page" finished-at="2022-01-25T19:42:54 EST" duration-ms="6090">
+      <class name="FrameworkProject.ValidateNavLinks">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:FrameworkProject.ValidateNavLinks@ed3068a]" started-at="2022-01-25T19:42:48 EST" name="initialize" finished-at="2022-01-25T19:42:54 EST" duration-ms="5935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavLinks()[pri:0, instance:FrameworkProject.ValidateNavLinks@ed3068a]" started-at="2022-01-25T19:42:54 EST" name="basePageNavLinks" finished-at="2022-01-25T19:42:54 EST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavLinks -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:FrameworkProject.ValidateNavLinks@ed3068a]" started-at="2022-01-25T19:42:54 EST" name="teardown" finished-at="2022-01-25T19:42:54 EST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- FrameworkProject.ValidateNavLinks -->
+    </test> <!-- Validating Navigation Links On Landing Page -->
+  </suite> <!-- Suite -->
+</testng-results>
