@@ -19,4 +19,11 @@ public class AppTest
         
         System.out.println("GitDemoX is updating new code to repo.");
     }
+    
+    @Test
+    public void addNewTest()
+    {
+        assertTrue( true );
+        System.out.println("GitStuff added new test to develop branch.");
+    }
 }
