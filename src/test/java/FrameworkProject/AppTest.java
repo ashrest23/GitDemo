@@ -15,5 +15,6 @@ public class AppTest
     public void shouldAnswerWithTrue()
     {
         assertTrue( true );
+        System.out.println("GitStuff is updating new code to repo.");
     }
 }
