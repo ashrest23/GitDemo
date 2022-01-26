@@ -16,5 +16,7 @@ public class AppTest
     {
         assertTrue( true );
         System.out.println("GitStuff is updating new code to repo.");
+        
+        System.out.println("GitDemoX is updating new code to repo.");
     }
 }
